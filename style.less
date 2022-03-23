@@ -1,0 +1,267 @@
+@brown: #806a64;
+@brown-op: #906a64a6;
+@green: #365327;
+
+.b-c {
+  color: @brown;
+}
+
+.b-g {
+  color: @green;
+}
+
+.text-left {
+  text-align: left;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background: white;
+  z-index: 999;
+}
+
+#home {
+  background-image: url("images/backhome.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 25rem;
+
+  .title-h1 {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .title-hello {
+    text-align: center;
+    margin: 0 auto;
+    background: @brown-op;
+  }
+
+  .wrap-hello {
+    padding: 5rem 0rem 6rem 0rem;
+    width: 55%;
+    margin: 0 auto;
+  }
+}
+
+#form {
+  padding: 10rem;
+  background: @brown;
+
+  .form-input {
+    background: no-repeat;
+    border: 1px solid white;
+    border-radius: 0;
+    margin-bottom: 10px;
+    height: 3rem;
+    color: white;
+  }
+
+  #form-check {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  #send-btn {
+    color: @brown;
+    font-weight: 600;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    margin-top: 1rem;
+  }
+
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+  }
+
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+  }
+
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+  ::placeholder { /* Most modern browsers support this now. */
+    color: white;
+  }
+}
+
+#quetion {
+  padding-bottom: 5rem;
+
+  .wrap-img {
+    width: 2.5rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+
+  .wrap-item-text {
+    font-size: 1.5rem;
+    color: #365327;
+  }
+
+  .item-q {
+    margin: 0 auto;
+    width: 35rem;
+    height: 15rem;
+    padding-top: 5rem;
+  }
+}
+
+#say {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background: @green;
+
+  .say-text {
+    background: white;
+    width: 30rem;
+    padding: 3rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .image-ball {
+    position: absolute;
+    top: -25%;
+    z-index: 0;
+    left: 40%;
+  }
+
+  .balls-wrap {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+#etaps {
+  background: @green;
+  color: white;
+}
+
+#peoplesay {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  .item-slide {
+    width: 55rem;
+    margin: 0 auto;
+  }
+
+  .item-say {
+    width: 70%;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid @brown;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("images/prev.svg");
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("images/next.svg");
+  }
+}
+
+#forms {
+  background: @green;
+
+  .form-input {
+    background: no-repeat;
+    border: 1px solid white;
+    border-radius: 0;
+    margin-bottom: 10px;
+    height: 3rem;
+    color: white;
+  }
+
+  #form-checks {
+    width: 25rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem
+  }
+
+  #send-btns {
+    color: @brown;
+    font-weight: 600;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    margin-top: 1rem;
+  }
+
+  .left-img {
+    width: 50%;
+  }
+
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+  }
+
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1;
+  }
+
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1;
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+  }
+
+  ::placeholder { /* Most modern browsers support this now. */
+    color: white;
+  }
+}
+
+.footer-flex {
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+#myslide {
+  padding-top: 5rem;
+}
+
+.owl-nav {
+  font-size: 2rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.owl-prev {
+  margin-right: 3rem;
+}
+
+.owl-next {
+  margin-left: 3rem;
+}
+
+@import "media";

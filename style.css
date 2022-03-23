@@ -1,0 +1,321 @@
+.b-c {
+  color: #806a64;
+}
+.b-g {
+  color: #365327;
+}
+.text-left {
+  text-align: left;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background: white;
+  z-index: 999;
+}
+#home {
+  background-image: url("images/backhome.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 25rem;
+}
+#home .title-h1 {
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+#home .title-hello {
+  text-align: center;
+  margin: 0 auto;
+  background: #906a64a6;
+}
+#home .wrap-hello {
+  padding: 5rem 0rem 6rem 0rem;
+  width: 55%;
+  margin: 0 auto;
+}
+#form {
+  padding: 10rem;
+  background: #806a64;
+}
+#form .form-input {
+  background: no-repeat;
+  border: 1px solid white;
+  border-radius: 0;
+  margin-bottom: 10px;
+  height: 3rem;
+  color: white;
+}
+#form #form-check {
+  width: 60%;
+  margin: 0 auto;
+}
+#form #send-btn {
+  color: #806a64;
+  font-weight: 600;
+  padding: 1rem 3rem 1rem 3rem;
+  border: none;
+  margin-top: 1rem;
+}
+#form ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: white;
+}
+#form :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+}
+#form ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+#form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+#form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+#form ::placeholder {
+  /* Most modern browsers support this now. */
+  color: white;
+}
+#quetion {
+  padding-bottom: 5rem;
+}
+#quetion .wrap-img {
+  width: 2.5rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+#quetion .wrap-item-text {
+  font-size: 1.5rem;
+  color: #365327;
+}
+#quetion .item-q {
+  margin: 0 auto;
+  width: 35rem;
+  height: 15rem;
+  padding-top: 5rem;
+}
+#say {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background: #365327;
+}
+#say .say-text {
+  background: white;
+  width: 30rem;
+  padding: 3rem;
+  position: relative;
+  z-index: 2;
+}
+#say .image-ball {
+  position: absolute;
+  top: -25%;
+  z-index: 0;
+  left: 40%;
+}
+#say .balls-wrap {
+  margin: 0 auto;
+  width: 50%;
+}
+#etaps {
+  background: #365327;
+  color: white;
+}
+#peoplesay {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#peoplesay .item-slide {
+  width: 55rem;
+  margin: 0 auto;
+}
+#peoplesay .item-say {
+  width: 70%;
+}
+#peoplesay .carousel-indicators [data-bs-target] {
+  background: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #806a64;
+}
+#peoplesay .carousel-control-prev-icon {
+  background-image: url("images/prev.svg");
+}
+#peoplesay .carousel-control-next-icon {
+  background-image: url("images/next.svg");
+}
+#forms {
+  background: #365327;
+}
+#forms .form-input {
+  background: no-repeat;
+  border: 1px solid white;
+  border-radius: 0;
+  margin-bottom: 10px;
+  height: 3rem;
+  color: white;
+}
+#forms #form-checks {
+  width: 25rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#forms #send-btns {
+  color: #806a64;
+  font-weight: 600;
+  padding: 1rem 3rem 1rem 3rem;
+  border: none;
+  margin-top: 1rem;
+}
+#forms .left-img {
+  width: 50%;
+}
+#forms ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: white;
+}
+#forms :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: white;
+  opacity: 1;
+}
+#forms ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+#forms :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+#forms ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+#forms ::placeholder {
+  /* Most modern browsers support this now. */
+  color: white;
+}
+.footer-flex {
+  width: max-content;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+#myslide {
+  padding-top: 5rem;
+}
+.owl-nav {
+  font-size: 2rem;
+  margin: 0 auto;
+  width: max-content;
+}
+.owl-prev {
+  margin-right: 3rem;
+}
+.owl-next {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 1440px) {
+  #home .wrap-hello {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1399px) {
+  #quetion .item-q {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #quetion .item-q {
+    width: 24rem;
+  }
+}
+@media screen and (max-width: 1099px) {
+  #peoplesay .item-slide {
+    width: 100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+@media screen and (max-width: 1019px) {
+  #form #form-check {
+    width: 95%;
+  }
+  #say {
+    padding: 1rem;
+  }
+  #say .say-text {
+    order: 2;
+    width: 100%;
+  }
+  #say .image-ball {
+    order: 0;
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+  #say .balls-wrap {
+    display: grid;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 991px) {
+  #quetion .item-q {
+    width: 100%;
+  }
+  #forms .left-img {
+    display: none;
+  }
+  #forms #form-checks {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  #peoplesay .item-say {
+    width: 58%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  #home .wrap-hello {
+    width: 95%;
+  }
+  #form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #form #form-check {
+    width: 100%;
+  }
+  #say .img-ball {
+    width: 100%;
+  }
+  #say .balls-wrap {
+    width: 100%;
+  }
+  #say .say-text {
+    padding: 1rem;
+    text-align: center;
+  }
+  #peoplesay .item-slide {
+    display: grid !important;
+    text-align: center;
+    padding: 0;
+  }
+  #peoplesay .item-say {
+    margin: 0 auto;
+  }
+  .carousel-indicators {
+    bottom: -3rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
